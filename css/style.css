@@ -100,3 +100,23 @@ hr {
     color: #f8f9fa;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* 모바일 화면에서 홈 섹션 높이 조정 */
+@media (max-width: 768px) {
+    #home {
+        height: 70vh;
+        padding-top: 50px;
+    }
+    
+    .intro-text {
+        padding: 30px 20px 20px 20px;
+    }
+    
+    .title-text {
+        font-size: 2.2rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
